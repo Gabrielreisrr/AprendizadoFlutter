@@ -38,7 +38,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('../assets/images/pngwing.com.png', height: 100),
+            Image.network('???', height: 100),
             TextField(
               controller: _usernameController,
               decoration: InputDecoration(labelText: 'User'),
